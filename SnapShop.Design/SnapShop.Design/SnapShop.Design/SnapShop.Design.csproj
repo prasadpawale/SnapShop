@@ -216,6 +216,7 @@
     <Content Include="fonts\OFL.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\loader.gif" />
     <Content Include="Images\picBanner\1.jpg" />
     <Content Include="Images\picBanner\2.jpg" />
     <Content Include="Images\picBanner\3.jpg" />

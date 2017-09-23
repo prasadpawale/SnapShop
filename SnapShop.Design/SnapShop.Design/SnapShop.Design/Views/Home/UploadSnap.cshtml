@@ -28,8 +28,7 @@
     //    }, 100);
 
     //})
-    function uploadFile() {
-        alert('here');
+    function uploadFile() { 
         var formData = new FormData();
         formData.append('file', $('#tempUploadSnap')[0].files[0]);
 
@@ -39,9 +38,7 @@
             data: formData,
             processData: false,  // tell jQuery not to process the data
             contentType: false,  // tell jQuery not to set contentType
-            success: function (data) {
-                console.log(data);
-                alert(data);
+            success: function (data) { 
             }
         });
 

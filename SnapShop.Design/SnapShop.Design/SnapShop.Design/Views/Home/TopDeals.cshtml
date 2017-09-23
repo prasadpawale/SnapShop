@@ -46,7 +46,9 @@
         </div>
     </div>
 </div>
-
+<div style="position: fixed;top: 41%;left: 81%;display:none" id="loader">
+    <img src="~/Images/loader.gif" height="25" />
+</div>
 <script>
     //$('.btnSearch').click(function () {
     //    window.scrollTo(0, 251);
@@ -58,15 +60,14 @@
     function uploadFile() {
         var formData = new FormData();
         formData.append('file', $('#file')[0].files[0]);
-
+        $("#loader").show();
         $.ajax({
             url: 'home/UploadAndSearch',
             type: 'POST',
             data: formData,
             processData: false,  // tell jQuery not to process the data
             contentType: false,  // tell jQuery not to set contentType
-            success: function (data) {
-                debugger;
+            success: function (data) { 
                 var jsonData = JSON.parse(data)
                 console.log(data);
                 var htmlData = "";
@@ -75,6 +76,7 @@
                 })
                 console.log("divResult", $("#divResult").html(htmlData))
                 $("#divResult").html(htmlData);
+                $("#loader").hide();
             }
         });
 
