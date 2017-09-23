@@ -5,7 +5,9 @@
 
             <input type="text" id="txtSearchRegion" class="form-control pull-left"
                    placeholder="YOUR AREA" value=""> 
-            <input type="file" id="txtSearchItem" class="form-control pull-left"  
+            <input type="text" id="txtSearchItem" class="form-control pull-left"
+                   placeholder="CAPTURE SNAP AND SEARCH" value="">
+            <input type="file" id="file" class="form-control pull-left" style="position:fixed;top:-10px" onchange="uploadFile()"
                    placeholder="CAPTURE SNAP AND SEARCH" value="">
             <div class="input-group-btn">
                 <div class="dropdown">
@@ -28,18 +30,27 @@
     //    }, 100);
 
     //})
+    function uploadFile() {
+        var formData = new FormData();
+        formData.append('file', $('#file')[0].files[0]);
+
+        $.ajax({
+            url: 'home/upload',
+            type: 'POST',
+            data: formData,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false,  // tell jQuery not to set contentType
+            success: function (data) {
+                console.log(data);
+                alert(data);
+            }
+        });
+
+    }
+
     $(document).ready(function () {
         $("#btnup").click(function () {
-            $('#txtSearchItem').fileupload({
-                dataType: 'json',
-                url: '/Home/Upload',
-                autoUpload: false,
-               
-                Default: true,
-                success: function (msg) {
-                    alert(msg);
-                }
-            });
-        });
+            $("#file").click();
+        }); 
     });
 </script>
