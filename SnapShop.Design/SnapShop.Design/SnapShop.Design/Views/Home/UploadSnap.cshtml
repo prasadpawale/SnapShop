@@ -1,10 +1,53 @@
-﻿<div class="container">
-    <h2>Vertical (basic) form</h2>
-    <form action="/action_page.php">
-        <div class="form-group">
-            <label for="snapshot">Add Snapshot</label>
-            <input type="file" class="form-control" id="snapshot" placeholder="Add Snapshot" name="snapshot">
+﻿ 
+
+<div class="col-lg-12">
+    <div class="col-lg-10 searchControl">
+        <div class="input-group " style="width:100%">
+
+            
+            <input type="file" id="tempUploadSnap" class="form-control pull-left" style="display:block;"                    
+                   placeholder="CAPTURE SNAP AND SEARCH" value="">
+            <div class="input-group-btn">
+                <div class="dropdown">
+                    <button id="btnup1" onclick="uploadFile()" class="btn btn-primary dropdown-toggle btnSearch" type="button"
+                            data-toggle="divCategory">
+                        Upload
+                    </button>
+                </div>
+            </div>
         </div>
-        <button type="submit" class="btn btn-default">Search</button>
-    </form>
+
+
+    </div>
 </div>
+<script>
+    //$('.btnSearch').click(function () {
+    //    window.scrollTo(0, 251);
+    //    setTimeout(function () {
+    //        $('#divCategory1').show();
+    //    }, 100);
+
+    //})
+    function uploadFile() {
+        alert('here');
+        var formData = new FormData();
+        formData.append('file', $('#tempUploadSnap')[0].files[0]);
+
+        $.ajax({
+            url: '/home/UploadAndCreate',
+            type: 'POST',
+            data: formData,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false,  // tell jQuery not to set contentType
+            success: function (data) {
+                console.log(data);
+                alert(data);
+            }
+        });
+
+    }
+
+    $(document).ready(function () {
+        
+    });
+</script>

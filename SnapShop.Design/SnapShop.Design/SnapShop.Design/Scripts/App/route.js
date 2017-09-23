@@ -12,7 +12,12 @@
                               {
                                   templateUrl: '/home/about',
                                   controller: 'aboutCtrl'
-                              })
+                        })
+                        .when('/uploadSnap',
+                        {
+                            templateUrl: '/home/uploadSnap',
+                            controller: 'uploadSnapCtrl'
+                        })
                       .otherwise('/',
                             {
                                 templateUrl: '/home/topDeals',

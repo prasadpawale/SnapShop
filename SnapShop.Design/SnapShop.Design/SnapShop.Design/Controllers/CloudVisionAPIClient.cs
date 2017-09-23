@@ -73,7 +73,7 @@ namespace SnapShop.Design.Controllers
 
         }
 
-        private string buildJsonFile(string base64Image, FeatureType type, short maxResults)
+        public string buildJsonFile(string base64Image, FeatureType type, short maxResults)
         {
             JObject json = new JObject();
 

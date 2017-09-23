@@ -10,6 +10,7 @@
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/angularjs");
     @Scripts.Render("~/bundles/app")
+   
     <style type="text/css">
         .navbar-nav > li > a {
             padding-top: 5px;
@@ -87,6 +88,7 @@
     <div class="header navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header ">
+                <input type="hidden" id="hdnAppURL" value="@ViewBag.AppURL" />
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -134,44 +136,40 @@
                     <ul class="nav navbar-nav">
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">ELECTRONICS<span class="caret"></span></a>
+                               role="button" aria-haspopup="true" aria-expanded="false">Electronics<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#/">Mobile</a></li>
                                 <li><a href="#/">Tablets</a></li>
                                 <li><a href="#">Laptops</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Televisions</li>
-                                <li><a href="#">Kitchen Appliances</a></li>
-                                <li><a href="#">Cameras</a></li>
+                                <li><a href="#">Mobile Accessories</a></li>
                             </ul>
                         </li>
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">MEN<span class="caret"></span></a>
+                               role="button" aria-haspopup="true" aria-expanded="false">Fashion Wear (Men/Women)<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#/">Footwear</a></li>
                                 <li><a href="#/">Clothing</a></li>
                                 <li><a href="#">Watches</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Bag Belts and wallets</li>
-                                <li><a href="#">All Fragrances</a></li>
                                 <li><a href="#">Sunglasses</a></li>
+                                <li><a href="#">Perfumes</a></li>
                             </ul>
                         </li>
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">WOMEN<span class="caret"></span></a>
+                               role="button" aria-haspopup="true" aria-expanded="false">Generalized<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#/">Action</a></li>
-                                <li><a href="#/">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#/">Bags</a></li>
+                                <li><a href="#/">Chairs</a></li>
+                                <li><a href="#">Idols</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Bottles</a></li>
+                                <li><a href="#">Cables</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown active">
+                        @*<li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
                                role="button" aria-haspopup="true" aria-expanded="false">BABY & KIDS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -222,7 +220,7 @@
                                 <li><a href="#">Separated link</a></li>
                                 <li><a href="#">One more separated link</a></li>
                             </ul>
-                        </li>
+                        </li>*@
                     </ul>
                 </div>
             </div>
@@ -256,93 +254,37 @@
                     <ul class="nav navbar-nav">
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">ELECTRONICS<span class="caret"></span></a>
+                               role="button" aria-haspopup="true" aria-expanded="false">Electronics<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#/">Mobile</a></li>
                                 <li><a href="#/">Tablets</a></li>
                                 <li><a href="#">Laptops</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Televisions</li>
-                                <li><a href="#">Kitchen Appliances</a></li>
-                                <li><a href="#">Cameras</a></li>
+                                <li><a href="#">Mobile Accessories</a></li>
                             </ul>
                         </li>
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">MEN<span class="caret"></span></a>
+                               role="button" aria-haspopup="true" aria-expanded="false">Fashion Wear (Men/Women)<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#/">Footwear</a></li>
                                 <li><a href="#/">Clothing</a></li>
                                 <li><a href="#">Watches</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Bag Belts and wallets</li>
-                                <li><a href="#">All Fragrances</a></li>
                                 <li><a href="#">Sunglasses</a></li>
+                                <li><a href="#">Perfumes</a></li>
                             </ul>
                         </li>
                         <li class="dropdown active">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">WOMEN<span class="caret"></span></a>
+                               role="button" aria-haspopup="true" aria-expanded="false">Generalized<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#/">Action</a></li>
-                                <li><a href="#/">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#/">Bags</a></li>
+                                <li><a href="#/">Chairs</a></li>
+                                <li><a href="#">Idols</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">BABY & KIDS<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#/">Action</a></li>
-                                <li><a href="#/">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">HOMS & FURNITURE<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#/">Action</a></li>
-                                <li><a href="#/">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">BOOKS & MEDIA<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#/">Action</a></li>
-                                <li><a href="#/">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">AUTO & SPORTS<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#/">Action</a></li>
-                                <li><a href="#/">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Bottles</a></li>
+                                <li><a href="#">Cables</a></li>
                             </ul>
                         </li>
                     </ul>

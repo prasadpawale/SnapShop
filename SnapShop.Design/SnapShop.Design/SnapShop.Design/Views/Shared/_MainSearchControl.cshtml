@@ -13,7 +13,7 @@
                 <div class="dropdown">
                     <button id="btnup" class="btn btn-primary dropdown-toggle btnSearch" type="button" 
                             data-toggle="divCategory">                        
-                        <span class="caret"></span>
+                        <span class="glyphicon-camera"></span>
                     </button>
                 </div>
             </div>
@@ -22,35 +22,3 @@
 
     </div>
 </div>
-<script>
-    //$('.btnSearch').click(function () {
-    //    window.scrollTo(0, 251);
-    //    setTimeout(function () {
-    //        $('#divCategory1').show();
-    //    }, 100);
-
-    //})
-    function uploadFile() {
-        var formData = new FormData();
-        formData.append('file', $('#file')[0].files[0]);
-
-        $.ajax({
-            url: 'home/upload',
-            type: 'POST',
-            data: formData,
-            processData: false,  // tell jQuery not to process the data
-            contentType: false,  // tell jQuery not to set contentType
-            success: function (data) {
-                console.log(data);
-                alert(data);
-            }
-        });
-
-    }
-
-    $(document).ready(function () {
-        $("#btnup").click(function () {
-            $("#file").click();
-        }); 
-    });
-</script>

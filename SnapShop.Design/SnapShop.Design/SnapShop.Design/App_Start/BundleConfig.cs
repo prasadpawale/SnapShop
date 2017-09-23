@@ -42,7 +42,8 @@ namespace SnapShop.Design
                            "~/Scripts/App/app.js",
                            "~/Scripts/App/route.js",
                            "~/Scripts/App/Controllers/topDealsCtrl.js",
-                           "~/Scripts/App/Controllers/aboutCtrl.js"
+                           "~/Scripts/App/Controllers/aboutCtrl.js",
+                           "~/Scripts/App/Controllers/uploadSnapCtrl.js"
                ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
