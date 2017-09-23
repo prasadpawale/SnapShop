@@ -111,15 +111,16 @@
                     </div>
                     <div class="input-group" style="margin-bottom:5px">
                         <input type="text" id="txtSmallSearchRegion" class="form-control pull-left" style="width:50%;height:25px" placeholder="YOUR AREA" id="query" name="query" value="">
-                        <input type="text" id="txtSmallSearchItem" class="form-control pull-left" style="width:50%;height:25px" placeholder="SEARCH MALL/OUTLET/STORE OR ITEMS"
+                        <input type="file" id="txtSmallSearchItem" class="form-control pull-left" style="width:50%;height:25px" 
+                               placeholder="SEARCH MALL/OUTLET/STORE OR ITEMS"
                                value="">
-                        <div class="input-group-btn">
-                            <button type="submit" class="btn btn-success searchButton"><span style="font-size:11px" class="glyphicon glyphicon-search"></span></button>
-                        </div>
+                        
                     </div>
 
                 </div>
-                <div id="divCategory1" class=" dropdown-menu col-lg-10" style="position:absolute;margin:0 8.3%; padding:10px;background-color:#fff;height:400px;display:none"></div>
+                <div id="divCategory1" class=" dropdown-menu col-lg-10" style="position: absolute; margin: 0px 25%; padding: 10px; background-color: rgb(255, 255, 255); height: 250px; display: none; width: 50%;">
+                    @Html.Partial("~/Views/Home/UploadSnap.cshtml")
+                </div>
                 <div style="margin-top:30px">
                     @Html.Partial("_LoginPartial")
                 </div>

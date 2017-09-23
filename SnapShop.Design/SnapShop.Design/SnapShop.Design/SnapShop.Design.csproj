@@ -339,6 +339,7 @@
     <Content Include="Views\Shared\_MainSearchControl.cshtml" />
     <Content Include="Views\Home\TopDeals.cshtml" />
     <Content Include="Views\Shared\_footer.cshtml" />
+    <Content Include="Views\Home\UploadSnap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

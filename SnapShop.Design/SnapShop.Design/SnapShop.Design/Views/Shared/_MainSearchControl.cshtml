@@ -1,34 +1,45 @@
 ﻿
 <div class="col-lg-12">
     <div class="col-lg-10 searchControl">
-        <div class="input-group">
+        <div class="input-group " style="width:100%">
 
             <input type="text" id="txtSearchRegion" class="form-control pull-left"
-                   placeholder="YOUR AREA" value="">
-            <input type="text" id="txtSearchItem" class="form-control pull-left"
-                   placeholder="SEARCH MALL/OUTLET/STORE OR ITEMS" value="">
+                   placeholder="YOUR AREA" value=""> 
+            <input type="file" id="txtSearchItem" class="form-control pull-left"  
+                   placeholder="CAPTURE SNAP AND SEARCH" value="">
             <div class="input-group-btn">
                 <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle btnSearch" type="button" data-toggle="divCategory">
-                        ...
+                    <button id="btnup" class="btn btn-primary dropdown-toggle btnSearch" type="button" 
+                            data-toggle="divCategory">                        
                         <span class="caret"></span>
                     </button>
-
                 </div>
             </div>
-
         </div>
 
 
     </div>
 </div>
 <script>
-    $('.btnSearch').click(function () {
-        window.scrollTo(0, 251);
-        setTimeout(function () {
-            $('#divCategory1').show();
-        }, 100);
+    //$('.btnSearch').click(function () {
+    //    window.scrollTo(0, 251);
+    //    setTimeout(function () {
+    //        $('#divCategory1').show();
+    //    }, 100);
 
-    })
-
+    //})
+    $(document).ready(function () {
+        $("#btnup").click(function () {
+            $('#txtSearchItem').fileupload({
+                dataType: 'json',
+                url: '/Home/Upload',
+                autoUpload: false,
+               
+                Default: true,
+                success: function (msg) {
+                    alert(msg);
+                }
+            });
+        });
+    });
 </script>
