@@ -22,8 +22,8 @@ namespace SnapShop.Design.MongoDb
         /// </summary>
         private void CreateMongoClient()
         {
-            string connectionStringItems = "mongodb://localhost/?safe=true";
-            //string connectionStringItems = "mongodb://thesnapshopapp:sz94BSTRMYIoNDhN4rsYCmgUZh55AsR1P9qAcfvow3tZ6OPLEqIAKid9hj2nAG6UJyX6INUqmBZC7zg9nG2wzA==@thesnapshopapp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            //string connectionStringItems = "mongodb://localhost/?safe=true";
+            string connectionStringItems = "mongodb://thesnapshopapp:sz94BSTRMYIoNDhN4rsYCmgUZh55AsR1P9qAcfvow3tZ6OPLEqIAKid9hj2nAG6UJyX6INUqmBZC7zg9nG2wzA==@thesnapshopapp.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
             string database = "SnapShop";
             mongoClient = new MongoClient(new MongoUrlBuilder(connectionStringItems) { MaxConnectionIdleTime = TimeSpan.FromMinutes(1) }.ToMongoUrl());
             if (mongoDb == null || mongoDb.DatabaseNamespace.DatabaseName != database)
