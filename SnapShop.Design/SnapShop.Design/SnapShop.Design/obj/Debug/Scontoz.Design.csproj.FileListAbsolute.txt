@@ -1,0 +1,122 @@
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Scontoz.Design.dll.config
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Scontoz.Design.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Scontoz.Design.pdb
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Antlr3.Runtime.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\EntityFramework.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\EntityFramework.SqlServer.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Google.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Web.Infrastructure.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Newtonsoft.Json.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Owin.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Net.Http.Formatting.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Helpers.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.WebHost.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Mvc.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Optimization.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Razor.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Deployment.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Razor.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\WebGrease.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Newtonsoft.Json.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Helpers.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Mvc.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Optimization.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Razor.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Deployment.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Razor.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Antlr3.Runtime.pdb
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Net.Http.Formatting.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.WebHost.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\EntityFramework.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\EntityFramework.SqlServer.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Google.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\obj\Debug\Scontoz.Design.csprojResolveAssemblyReference.cache
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\obj\Debug\Scontoz.Design.dll
+D:\Prasad\MyWork\Scontoz.Design\Scontoz.Design\obj\Debug\Scontoz.Design.pdb
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Scontoz.Design.dll.config
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Scontoz.Design.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Scontoz.Design.pdb
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Antlr3.Runtime.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\EntityFramework.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\EntityFramework.SqlServer.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Google.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Web.Infrastructure.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Newtonsoft.Json.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Owin.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Net.Http.Formatting.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Helpers.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.WebHost.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Mvc.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Optimization.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Razor.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Deployment.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Razor.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\WebGrease.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Newtonsoft.Json.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Helpers.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Mvc.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Optimization.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Razor.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Deployment.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.WebPages.Razor.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Antlr3.Runtime.pdb
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Net.Http.Formatting.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\System.Web.Http.WebHost.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\EntityFramework.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\EntityFramework.SqlServer.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Google.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\obj\Debug\Scontoz.Design.csprojResolveAssemblyReference.cache
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\obj\Debug\Scontoz.Design.dll
+F:\Prasad\Work\Scontoz and BrighterMind\Scontoz.Design\Scontoz.Design\obj\Debug\Scontoz.Design.pdb
